@@ -14,6 +14,6 @@ api.use(express.json())
 
 api.use('/',router)
 
-api.listen(3333, () => {
+api.listen(3033, () => {
   console.log('Servidor iniciado')
 })
