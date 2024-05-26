@@ -8,8 +8,6 @@ const api = express()
 
 api.use(cors())
 
-
-
 api.use(express.json())
 
 api.use('/',router)
