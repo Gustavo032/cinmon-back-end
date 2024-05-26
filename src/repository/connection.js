@@ -9,7 +9,7 @@ async function connect() {
         database: 'monitoramento',
         user: 'cinmon',
         port : 4001,
-        host: '62.72.63.39',
+        host: 'localhost',
         password: 'Mud@r032'
    }
 )
