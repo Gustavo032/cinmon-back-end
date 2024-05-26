@@ -1,3 +1,5 @@
+import db from "../repository/connection.js"
+
 async function alterar(smp, veiculo, motorista, telefone, f, ag, au, entrega, tecn, valor, isca, datainicio, datafinal, destino, status, obs, id) {
   let sql = `UPDATE tbl_viagens SET 
                smp = ?, 
@@ -29,3 +31,5 @@ async function alterar(smp, veiculo, motorista, telefone, f, ag, au, entrega, te
 
   conn.end();
 }
+
+export default { alterar };
